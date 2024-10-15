@@ -1,0 +1,21 @@
+{
+    "name": "DDOS",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "notifications",
+        "clipboardWrite",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "128": "logo.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
